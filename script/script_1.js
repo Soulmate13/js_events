@@ -32,7 +32,7 @@ document.addEventListener('keydown', ReturnField);
 function ReturnField() {
 
     if (textarea.style.display == "block") {
-        if ((event.ctrlKey || event.metaKey) && event.code == 'Comma') { // if Ctrt+, is pressed 
+        if ((event.ctrlKey || event.metaKey) && event.code == 'Comma') { // if Ctrt+, is pressed
             div.style.display = "block"; // div is visible
             textarea.style.display = "none"; // text area is invisible
 
