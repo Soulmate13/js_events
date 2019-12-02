@@ -17,12 +17,12 @@ let workers = [{
 
 }, {
     name: "Anna",
-    position: "Boss",
+    position: "boss",
     salary: 100000
 
 }, {
     name: "Bob Ross",
-    position: "Big Boss",
+    position: "big Boss",
     salary: 200000
 
 }, {
