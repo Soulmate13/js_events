@@ -65,6 +65,16 @@ function getHtml(_workers) {
 
     buff += `</table>`
     root.innerHTML = (`${buff}`);
+
+
+    let salary = document.getElementById("salary");
+    salary.addEventListener("click", SortSalary);
+
+    let name = document.getElementById("name");
+    name.addEventListener("click", SortName);
+
+    let positionName = document.getElementById("position");
+    positionName.addEventListener("click", SortPosition);
 };
 
 getHtml(workers);
@@ -91,12 +101,3 @@ function SortPosition() {
     })
     getHtml(workers);
 };
-
-let salary = document.getElementById("salary");
-salary.addEventListener("click", SortSalary);
-
-let name = document.getElementById("name");
-name.addEventListener("click", SortName);
-
-let positionName = document.getElementById("position");
-positionName.addEventListener("click", SortPosition);
